@@ -1,0 +1,47 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "model": "BMW X1",
+            "image": "card1",
+            "fuel": "Electric",
+            "price": "1,13,00,000"
+        },
+        {
+            "id": 2,
+            "model": "BMW X2",
+            "image": "card2",
+            "fuel": "Petrol",
+            "price": "83,00,000"
+        },
+        {
+            "id": 3,
+            "model": "BMW X3",
+            "image": "card3",
+            "fuel": "Diesel",
+            "price": "93,00,000"
+        },
+        {
+            "id": 4,
+            "model": "BMW Xi",
+            "image": "card4",
+            "fuel": "Electric",
+            "price": "1,60,00,000"
+        },
+        {
+            "id": 5,
+            "model": "BMW X4",
+            "image": "card5",
+            "fuel": "Electric",
+            "price": "1,55,00,000"
+        },
+        {
+            "id": 6,
+            "model": "BMW X5",
+            "image": "card6",
+            "fuel": "Electric",
+            "price": "1,22,00,000"
+        }
+    ]
+}
+
