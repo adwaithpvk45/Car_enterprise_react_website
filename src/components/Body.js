@@ -1,10 +1,4 @@
 import Products from "./Products"
-// import card1 from '../images/card1.png'
-// import card2 from '../images/card2.png'
-// import card3 from '../images/card3.png'
-// import card4 from '../images/cardm4.png'
-// import card5 from '../images/card5.png'
-// import card6 from '../images/card6.png'
 import { useState } from "react"
 
 const response = await fetch('./data.json')
@@ -41,7 +35,13 @@ function Body(){
           }
     }
 
-
+    const searchData = (event)=>{
+      const search = event.target.value
+      const searchedData= newData.cars.filter((car)=>{
+        return (car.model.replace(/\s+/g,"").toLowerCase().includes(search.replace(/\s+/g,"").toLowerCase())||car.fuel.replace(/\s+/g,"").toLowerCase().includes(search.replace(/\s+/g,"").toLowerCase()))
+      })
+      setData(searchedData)
+    }
     return(
 
         <div className="body">
@@ -50,7 +50,7 @@ function Body(){
                     <option className="first" value="all"> All</option>
                     <option value="10000000">Premium</option>
                     </select>
-            <input placeholder="Model No.." id='input'></input>
+            <input placeholder="Search for 'Model', 'Fuel' " id='input' onChange={searchData}></input>
             </div>         
         <div className="cars" id="cars">
         {data.map((car) => (
