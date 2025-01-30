@@ -1,6 +1,6 @@
 
 {
-    "cars": [
+    "products": [
         {
             "id": 1,
             "model": "BMW X1",
@@ -48,51 +48,99 @@
     "images": [
         {
           "id": 1,
-          "image": "./images/a"
+          "image": "./images/a.png"
         },
         {
           "id": 2,
-          "image": "./images/b"
+          "image": "./images/b.png"
         },
         {
           "id": 3,
-          "image": "./images/c"
+          "image": "./images/c.png"
         },
         {
           "id": 4,
-          "image": "./images/d"
+          "image": "./images/d.png"
         },
         {
           "id": 5,
-          "image": "./images/e"
+          "image": "./images/e.png"
         },
         {
           "id": 6,
-          "image": "./images/f"
+          "image": "./images/f.png"
         },
         {
           "id": 7,
-          "image": "./images/l"
+          "image": "./images/l.png"
         },
         {
           "id": 8,
-          "image": "./images/q"
+          "image": "./images/q.png"
         },
         {
           "id": 9,
-          "image": "./images/r"
+          "image": "./images/r.png"
         },
         {
           "id": 10,
-          "image": "./images/s"
+          "image": "./images/s.png"
         },
         {
           "id": 11,
-          "image": "./images/x"
+          "image": "./images/x.png"
         },
         {
           "id": 12,
-          "image": "./images/y"
+          "image": "./images/y.png"
+        },
+        {
+          "id": 13,
+          "image": "./images/a.png"
+        },
+        {
+          "id": 14,
+          "image": "./images/b.png"
+        },
+        {
+          "id": 15,
+          "image": "./images/c.png"
+        },
+        {
+          "id": 16,
+          "image": "./images/d.png"
+        },
+        {
+          "id": 17,
+          "image": "./images/e.png"
+        },
+        {
+          "id": 18,
+          "image": "./images/f.png"
+        },
+        {
+          "id": 19,
+          "image": "./images/l.png"
+        },
+        {
+          "id": 20,
+          "image": "./images/q.png"
+        },
+        {
+          "id": 21,
+          "image": "./images/r.png"
+        },
+        {
+          "id": 22,
+          "image": "./images/s.png"
+        },
+        {
+          "id": 23,
+          "image": "./images/x.png"
+        },
+        {
+          "id": 24,
+          "image": "./images/y.png"
         }
       ]
 }
