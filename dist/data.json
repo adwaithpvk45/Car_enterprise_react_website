@@ -1,0 +1,148 @@
+
+{
+    "products": [
+        {
+            "id": 1,
+            "model": "BMW X1",
+            "image": "/images/card1.png",
+            "fuel": "Electric",
+            "price": "1,13,00,000"
+        },
+        {
+            "id": 2,
+            "model": "BMW X2",
+            "image": "/images/card2.png",
+            "fuel": "Petrol",
+            "price": "83,00,000"
+        },
+        {
+            "id": 3,
+            "model": "BMW X3",
+            "image": "/images/card3.png",
+            "fuel": "Diesel",
+            "price": "93,00,000"
+        },
+        {
+            "id": 4,
+            "model": "BMW Xi",
+            "image": "/images/cardm4.png",
+            "fuel": "Electric",
+            "price": "1,60,00,000"
+        },
+        {
+            "id": 5,
+            "model": "BMW X4",
+            "image": "/images/card5.png",
+            "fuel": "Electric",
+            "price": "1,55,00,000"
+        },
+        {
+            "id": 6,
+            "model": "BMW X5",
+            "image": "/images/card6.png",
+            "fuel": "Electric",
+            "price": "1,22,00,000"
+        }
+    ],
+
+    "images": [
+        {
+          "id": 1,
+          "image": "./images/a.png"
+        },
+        {
+          "id": 2,
+          "image": "./images/b.png"
+        },
+        {
+          "id": 3,
+          "image": "./images/c.png"
+        },
+        {
+          "id": 4,
+          "image": "./images/d.png"
+        },
+        {
+          "id": 5,
+          "image": "./images/e.png"
+        },
+        {
+          "id": 6,
+          "image": "./images/f.png"
+        },
+        {
+          "id": 7,
+          "image": "./images/l.png"
+        },
+        {
+          "id": 8,
+          "image": "./images/q.png"
+        },
+        {
+          "id": 9,
+          "image": "./images/r.png"
+        },
+        {
+          "id": 10,
+          "image": "./images/s.png"
+        },
+        {
+          "id": 11,
+          "image": "./images/x.png"
+        },
+        {
+          "id": 12,
+          "image": "./images/y.png"
+        },
+        {
+          "id": 13,
+          "image": "./images/a.png"
+        },
+        {
+          "id": 14,
+          "image": "./images/b.png"
+        },
+        {
+          "id": 15,
+          "image": "./images/c.png"
+        },
+        {
+          "id": 16,
+          "image": "./images/d.png"
+        },
+        {
+          "id": 17,
+          "image": "./images/e.png"
+        },
+        {
+          "id": 18,
+          "image": "./images/f.png"
+        },
+        {
+          "id": 19,
+          "image": "./images/l.png"
+        },
+        {
+          "id": 20,
+          "image": "./images/q.png"
+        },
+        {
+          "id": 21,
+          "image": "./images/r.png"
+        },
+        {
+          "id": 22,
+          "image": "./images/s.png"
+        },
+        {
+          "id": 23,
+          "image": "./images/x.png"
+        },
+        {
+          "id": 24,
+          "image": "./images/y.png"
+        }
+      ]
+}
+
+

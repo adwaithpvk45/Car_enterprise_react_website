@@ -6,7 +6,8 @@ const handleclick = () => {
        console.log(props.sendData(props.slug))
 }
 
-       return ( <>
+       return (
+      <>
         {/* {console.log(props)} */}
         <div className="cateBox" onClick={handleclick}>
         <div className="cateImage">

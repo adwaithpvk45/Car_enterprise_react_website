@@ -9,6 +9,7 @@ export function Cart(){
     const quantity = useSelector((state)=>state.counter.quantity)
 //    console.log(quantity)
     return (
+        <PageTransition>
         <div className="cart">
             <div className="items">
                 <div className="itemsHead" style={{marginBottom:'20px'}}>
@@ -35,5 +36,6 @@ export function Cart(){
 
             </div>
         </div>
+        </PageTransition>
     )
 }

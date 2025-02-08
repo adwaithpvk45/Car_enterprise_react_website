@@ -43,7 +43,7 @@ const dispatch=useDispatch()
             <h4 style={{color:'red',fontSize:'30px',fontWeight:'700'}}>{`$ ${data.price}`}</h4>
              <p style={{color:'grey',fontSize:'15px'}}>{data.returnPolicy}</p>
              <div className="pdButtons">
-               <button className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"> Buy Now</button>
+               <button className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-green-700"> Buy Now</button>
                <button onClick={()=>{dispatch(increment(data))}}> Cart</button>
              </div>
              </div>

@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,8 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
+
 /* @font-face {
   font-family: 'Light Sport';
   src: url('/path-to-font/light-sport.woff2') format('woff2'),
@@ -19,42 +21,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
  *{
   box-sizing: border-box;
   margin: 0px;
   /* overflow-x: hidden; */
  }
+
 .navbar{
-  display:flex;
+  /* display:flex;
   justify-content:space-between ;
   padding: 30px;
   align-items: center;
   background-color: rgb(22, 21, 21); 
   color:white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 
 }
 .logo-div{
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
 }
 img{
-  max-width: 100%;
-  overflow: hidden;
+  /* max-width: 100%;
+  overflow: hidden; */
 }
 ul{
-  display: flex;
-  list-style: none;
+  /* display: flex;
+  list-style: none; */
 }
 ul li{
   margin-right: 80px;
-  cursor: pointer;
+  /* cursor: pointer;
   font-size: 20px;
   padding-bottom: 5px;
   border-bottom: 0px white solid;
   transform: scale(1);
   transition: all 0.7s ease-in;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255); */
 }
 
 ul li:hover{
@@ -63,18 +67,16 @@ ul li:hover{
   color: rgb(17, 127, 164);
 }
 .navbar .cart{
-  display: flex;
-  justify-self: center;
+  /* display: flex;
   padding:5px;
   font-size: 20px;
-  /* background-color:inherit; */
   color:white;
   transition: 1s ease;
   padding-right:30px;
   padding-left:30px;
   border: none;
   cursor: pointer;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .navbar .cart:hover{
   background-color: rgb(255, 255, 255);
@@ -92,30 +94,29 @@ ul li:hover{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  
 }
-.header img{
+.header div{
   flex:1;
   max-width: 100%;
   transition: flex-grow 0.5s ease,transform 1s ease;
   object-fit: cover;
-  height: auto;
+  height: auto;  
 }
-.header img:hover{
+.header div:hover{
   flex:2;
-  transform:scale(1.2)
+  transform:scale(1.2)!important;
 }
 
 .about{
-  height: 650px;
+  /* height: 650px; */
   /* background: url(./images/aboutnew.png); */
-  background-size: contain;
+  /* background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   /* background-color: rgb(255, 255, 255);  */
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
-  overflow: hidden;
+  overflow: hidden; */
   
 }
 .aboutButton{
@@ -123,44 +124,43 @@ ul li:hover{
   padding-bottom: 50px;
   h2{
     color: rgba(4, 126, 179, 0.993);
-    font-size: 130px;
-    letter-spacing: 10px;
-    font-weight: 900;
+    /* font-size: 130px;
+    letter-spacing: 10px; */
       font-family: "Rubik Mono One", serif;
-      font-weight: 400;
+      /* font-weight: 400; */
       /* font-style: italic; */
       }
   /* p{
     color: white;
     font-size: 30px;
-  }
-  h4{
+  } */
+  /* h4{
     color: white;
     padding-top: 30px;
     font-size: 40px;
   } */
 }
 .aboutHead{
- display: flex;
+ /* display: flex;
  flex-direction: column;
  justify-content: space-between;
  align-items: flex-end;
  padding-right: 90px;
  padding-bottom: 140px;
- padding-top: 110px;
+ padding-top: 110px; */
  p{
-  padding-left: 10px;
-  color: rgb(177, 177, 177);
-  font-size: 23px;
+  /* padding-left: 10px; */
+  /* color: rgb(177, 177, 177); */
+  /* font-size: 23px; */
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h4{
-  padding-left: 10px;
+  /* padding-left: 10px;
   background: linear-gradient(90deg, #8c8c8c, #569cbd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
   padding-top: 20px;
-  font-size: 40px;
+  font-size: 40px; */
 }
  button{
   margin-top: 50px;
@@ -573,6 +573,41 @@ button:hover{
   }
 }
 
+.Service{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:50px;
+  .ServiceComponents{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;  
+    padding: 30px; 
+    .ServiceCard{
+      cursor: pointer;
+      font-size: 20px;
+      width:350px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 30px;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+      transition: background-size 1s ease-in;
+      background-size: 100%;
+      background-position: right;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+font-family:Arial, Helvetica, sans-serif;    } 
+  }
+}
+
+.ServiceCard:hover{
+  background-size: 120%!important;
+}
 
 @tailwind base;
 @tailwind components;
